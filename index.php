@@ -60,16 +60,16 @@
   <fieldset>
     <legend>X:</legend>
 
-    <input value="-4" type="checkbox" id="x_-4" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_-4">-4</label><br>
-    <input value="-3" type="checkbox" id="x_-3" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_-3">-3</label><br>
-    <input value="-2" type="checkbox" id="x_-2" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_-2">-2</label><br>
-    <input value="-1" type="checkbox" id="x_-1" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_-1">-1</label><br>
-    <input value="0" type="checkbox" id="x_0" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_0">0</label><br>
-    <input value="1" type="checkbox" id="x_1" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_1">1</label><br>
-    <input value="2" type="checkbox" id="x_2" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_2">2</label><br>
-    <input value="3" type="checkbox" id="x_3" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_3">3</label><br>
-    <input value="4" type="checkbox" id="x_4" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_4">4</label><br>
-    
+    <input class="check_b" value="-4" type="checkbox" id="x_-4" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_-4">-4</label><br>
+    <input class="check_b" value="-3" type="checkbox" id="x_-3" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_-3">-3</label><br>
+    <input class="check_b" value="-2" type="checkbox" id="x_-2" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_-2">-2</label><br>
+    <input class="check_b" value="-1" type="checkbox" id="x_-1" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_-1">-1</label><br>
+    <input class="check_b" value="0" type="checkbox" id="x_0" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_0">0</label><br>
+    <input class="check_b" value="1" type="checkbox" id="x_1" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_1">1</label><br>
+    <input class="check_b" value="2" type="checkbox" id="x_2" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_2">2</label><br>
+    <input class="check_b" value="3" type="checkbox" id="x_3" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_3">3</label><br>
+    <input class="check_b" value="4" type="checkbox" id="x_4" name="X_checkbox" onchange="add_X_value(this.id)"><label for="x_4">4</label><br>
+    <p id="errX"></p>
 </fieldset>
 <input id="Y" name="Y" type="text" placeholder="(-3 , 3)">
 <p id="error"></p>
